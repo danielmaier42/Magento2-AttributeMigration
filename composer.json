@@ -5,8 +5,11 @@
   "type": "magento2-module",
   "version": "1.0.0",
   "require": {
+    "danielmaier/consoleutility": "^1",
     "magento/framework": "*",
-    "danielmaier/consoleutility": "^1"
+    "magento/module-catalog": "*",
+    "magento/module-eav": "*",
+    "magento/module-store": "*"
   },
   "authors": [
     {
