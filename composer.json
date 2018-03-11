@@ -1,0 +1,26 @@
+{
+  "name": "danielmaier/attributemigration",
+  "description": "CLI-based Attribute Migration for Magento 2",
+  "license": "GPL-3.0-or-later",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+    "magento/framework": "*",
+    "danielmaier/consoleutility": "^1"
+  },
+  "authors": [
+    {
+      "name": "Daniel Maier",
+      "email": "office@maierdaniel.de",
+      "homepage": "https://www.maierdaniel.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DanielMaier\\AttributeMigration\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}
